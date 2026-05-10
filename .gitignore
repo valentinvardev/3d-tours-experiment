@@ -11,7 +11,16 @@
 # database
 /prisma/db.sqlite
 /prisma/db.sqlite-journal
+/prisma/dev.db
+/prisma/dev.db-journal
 db.sqlite
+
+# user-uploaded content (panoramas, floor maps, placement images)
+/public/uploads/
+
+# matterport / 3rd-party scan exports (often contain personal data)
+*.swl
+/*.zip
 
 # next.js
 /.next/
